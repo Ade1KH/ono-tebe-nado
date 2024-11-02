@@ -57,7 +57,6 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 
 .overlay{
@@ -185,7 +184,6 @@ body{
   justify-content: space-between;
   width: 334px;
   height: 100%;
-  
 }
 
 .card-link{
@@ -228,7 +226,6 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 
 .card_type_picture{
@@ -269,7 +266,6 @@ body{
   margin-left: 48px;
   border-radius: 50%;
   background-color: black;
-  
 }
 
 .about__logo-image{
@@ -310,7 +306,6 @@ body{
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-
 }
 
 .address{
@@ -339,12 +334,10 @@ text-decoration: none;
   display: flex;
   justify-content: flex-end;
   gap: 48px;
-  
 }
 
 .footer__social-list-item{
   list-style: none;
- 
 }
 
 .footer__social-icon{
