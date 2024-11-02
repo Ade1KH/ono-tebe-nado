@@ -93,6 +93,7 @@ body {
   display: block;
   line-height: 139px;
   text-align: center;
+  letter-spacing: 30px;
 }
 
 .aligned-text_right {
@@ -103,7 +104,6 @@ body {
 
 .letter-spacing {
   letter-spacing: 60px;
-  text-align: end;
 }
 
 .letter-spacing-add {
