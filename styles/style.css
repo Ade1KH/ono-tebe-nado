@@ -1,9 +1,9 @@
-body{
- box-sizing: border-box;
- font-family: "Raleway","sans-serif";
+body {
+  box-sizing: border-box;
+  font-family: "Raleway", "sans-serif";
 }
 
-.header{
+.header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
@@ -12,14 +12,14 @@ body{
   font-size: 18px;
 }
 
-.header__menu{
+.header__menu {
   display: flex;
-  }
+}
 
 .header__links-list {
   display: flex;
-  gap: 34px; 
-  list-style: circle;  
+  gap: 34px;
+  list-style: circle;
 }
 
 .header__link_active {
@@ -27,21 +27,21 @@ body{
   text-underline-offset: 4px;
 }
 
-.header__links-list-item_no-bullit{
+.header__links-list-item_no-bullit {
   text-decoration: none;
   list-style: none;
 }
 
-.header__logo{
+.header__logo {
   display: block;
 }
 
-.header__logo-image{
+.header__logo-image {
   width: 148px;
   height: 105px;
 }
 
-.header__address{
+.header__address {
   justify-self: end;
   padding-right: 36px;
   font-style: normal;
@@ -49,7 +49,7 @@ body{
   text-underline-offset: 4px;
 }
 
-.cover{
+.cover {
   position: relative;
   display: block;
   min-height: 757px;
@@ -59,14 +59,13 @@ body{
   background-size: cover;
 }
 
-.overlay{
+.overlay {
   position: absolute;
   inset: 0;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
-
-.cover__title{
+.cover__title {
   position: relative;
   z-index: 1;
   display: block;
@@ -75,48 +74,46 @@ body{
   font-weight: 700;
   font-size: 100px;
   line-height: 115px;
-  letter-spacing:10px;
+  letter-spacing: 10px;
   text-transform: uppercase;
-  word-spacing:10px;
+  word-spacing: 10px;
 }
 
-.aligned-text{
+.aligned-text {
   display: block;
   line-height: 115px;
   letter-spacing: 0.3em;
 }
 
-.aligned-text_center{
+.aligned-text_center {
   display: block;
   line-height: 139px;
   letter-spacing: 0.3em;
   text-align: center;
-  
 }
 
-.aligned-text_right{
+.aligned-text_right {
   display: block;
   line-height: 103px;
   letter-spacing: 60px;
   text-align: end;
 }
 
-.letter-spacing{
-  
+.letter-spacing {
   letter-spacing: 60px;
- }
+}
 
-.letter-spacing-add{
+.letter-spacing-add {
   letter-spacing: 30px;
   text-align: end;
 }
 
- .letter-spacing-none{
+.letter-spacing-none {
   letter-spacing: 0;
   text-align: end;
- }
+}
 
-.cover__description{
+.cover__description {
   position: relative;
   z-index: 1;
   display: flex;
@@ -131,15 +128,15 @@ body{
   text-transform: uppercase;
 }
 
-.cover__description-text{
+.cover__description-text {
   display: flex;
 }
 
-.bet-button{
+.bet-button {
   z-index: 1;
   display: block;
   margin-left: 56px;
-  border:1px solid #ffffff;
+  border: 1px solid #ffffff;
   padding: 11px 32px 11px 31px;
   color: #ffffff;
   font-weight: 500;
@@ -150,14 +147,14 @@ body{
   background-color: transparent;
 }
 
-.lots{
+.lots {
   display: flex;
   flex-direction: column;
   min-height: 692px;
   margin-top: 175px;
 }
 
-.lots__heading{
+.lots__heading {
   display: block;
   margin-bottom: 31px;
   padding-left: 64px;
@@ -167,7 +164,7 @@ body{
   text-align: start;
 }
 
-.lots__card-list{
+.lots__card-list {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
@@ -177,7 +174,7 @@ body{
   list-style: none;
 }
 
-.card{
+.card {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -186,11 +183,11 @@ body{
   height: 100%;
 }
 
-.card-link{
+.card-link {
   text-decoration: none;
 }
 
-.card__title{
+.card__title {
   position: relative;
   z-index: 1;
   display: block;
@@ -203,7 +200,7 @@ body{
   text-transform: uppercase;
 }
 
-.card__text{
+.card__text {
   position: relative;
   z-index: 1;
   display: block;
@@ -214,28 +211,28 @@ body{
   line-height: 24px;
 }
 
-.card_type_film{
+.card_type_film {
   background-image: url(/images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.card_type_book{
+.card_type_book {
   background-image: url(/images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.card_type_picture{
+.card_type_picture {
   background-image: url(/images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.lots__look-more-link{
+.lots__look-more-link {
   display: block;
   padding-top: 29px;
   padding-left: 64px;
@@ -244,7 +241,7 @@ body{
   text-underline-offset: 5px;
 }
 
-.about{
+.about {
   display: grid;
   grid-template-columns: 334px 1fr;
   grid-template-rows: 240px auto;
@@ -254,7 +251,7 @@ body{
   padding-right: 5px;
 }
 
-.about__logo{
+.about__logo {
   display: flex;
   flex-direction: column;
   grid-column: 1/2;
@@ -268,20 +265,20 @@ body{
   background-color: black;
 }
 
-.about__logo-image{
+.about__logo-image {
   width: 148px;
   height: 114px;
   background-image: url(/images/logo-white.svg);
   background-size: cover;
 }
 
-.about__column{
+.about__column {
   display: flex;
   flex-direction: column;
   gap: 17px;
 }
 
-.about__title{
+.about__title {
   align-self: center;
   margin-top: 10px;
   font-weight: 700;
@@ -290,7 +287,7 @@ body{
   text-transform: uppercase;
 }
 
-.about__text{
+.about__text {
   display: flex;
   margin-top: 8px;
   font-weight: 400;
@@ -298,7 +295,7 @@ body{
   line-height: 24px;
 }
 
-.footer{
+.footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0 50px 88px 50px;
@@ -308,7 +305,7 @@ body{
   line-height: 21px;
 }
 
-.address{
+.address {
   justify-self: start;
   padding-right: 36px;
   font-style: normal;
@@ -316,31 +313,30 @@ body{
   text-underline-offset: 4px;
 }
 
-.footer__menu{
+.footer__menu {
   display: block;
   text-underline-offset: 4px;
 }
 
-.footer__menu-list{
+.footer__menu-list {
   text-align: center;
   list-style: none;
 }
 
-.footer__menu-link_active{
-text-decoration: none;
+.footer__menu-link_active {
+  text-decoration: none;
 }
-  
-.footer__social-list{
+
+.footer__social-list {
   display: flex;
   justify-content: flex-end;
   gap: 48px;
 }
 
-.footer__social-list-item{
+.footer__social-list-item {
   list-style: none;
 }
 
-.footer__social-icon{
+.footer__social-icon {
   width: 48px;
 }
-
